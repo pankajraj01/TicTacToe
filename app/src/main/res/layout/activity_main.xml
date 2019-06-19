@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="#d1c4e9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1(X) : "
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_p1"
+            android:layout_marginTop="5dp"
+            android:text="Player 2(O) : "
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:elevation="10dp"
+            android:text="reset"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:background="@drawable/custom_btn_reset"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btn_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btn_20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:textSize="30dp"
+            android:background="@drawable/custom_btn_board"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
